@@ -2,11 +2,6 @@ import nav_menu from "./modules/nav.js";
 import AwesomeBook from "./modules/AwesomeBook.js";
 import Books from "./modules/BookClass.js";
 import DynamicHtml from "./modules/DynamicHtml.js";
-import { DateTime } from "./node_modules/luxon/src/luxon.js";
-
-document.getElementById("date").innerText = DateTime.now().toLocaleString(
-  DateTime.DATETIME_MED
-);
 const addBtn = document.getElementById("book-form");
 let books = new Books();
 if (localStorage.getItem("books")) {

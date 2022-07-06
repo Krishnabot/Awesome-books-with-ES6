@@ -7,7 +7,6 @@ import { DateTime } from "./node_modules/luxon/src/luxon.js";
 const dateTime = document.getElementById("date");
 dateTime.innerHTML = DateTime.now();
 
-
 const addBtn = document.getElementById("book-form");
 let books = new Books();
 if (localStorage.getItem("books")) {

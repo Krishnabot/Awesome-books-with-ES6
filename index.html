@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <title>Awesome Book with ES6</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Awesome Book App With ES6 </title>
 </head>
+
 <body>
- 
-<script src="index.js"></script>
+    <nav class="navBar">
+        <div class="navBarTitle">Awesome Books</div>
+        <ul class="navItems">
+            <li class="navItem"><a id="listLink">List</a></li>
+            <li class="navItem"><a id="newLink">Add New</a></li>
+            <li class="navItem"><a id="contactLink">Contact</a></li>
+        </ul>
+    </nav>
+      <p id="date">
+    </p>
+    <section  id="booksList">
+        <h2>All Awesome Books</h2>
+        <table>
+            <tbody id="book-list">
+
+            </tbody>
+        </table>
+    </section>
+    <form class="hide" id="book-form">
+        <h2>Add a New Book </h2>
+        <input type="text" placeholder="Title" required id="title">
+        <input type="text" placeholder="Author" required id="author">
+        <input type="submit" value="Submit" id="add-book">
+    </form>
+    <section class="hide" id="contact">
+        <h2>Contact Information</h2>
+        <p>Do you have any question or want to say hello, you can reach us on the below contact information</p>
+        <ul>
+            <li>email: info@test.com</li>
+            <li>Tel#: +233 555 6666 22</li>
+            <li>Our address:</li>
+        </ul>
+    </section>
+    <footer class="copyright">
+        <p>@Copy Rights: All rights reserved</p></footer>
+    <script type="module" src="./index.js"></script>
 </body>
 
 </html>

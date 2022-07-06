@@ -1,0 +1,195 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Krishnabot 
+jaferIdrees
+/
+Awesome_books_ES6
+Public
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Awesome_books_ES6/index.css
+@jaferIdrees
+jaferIdrees Refactor JS code to use ES6 modules
+Latest commit 59825d8 yesterday
+ History
+ 1 contributor
+152 lines (126 sloc)  1.87 KB
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+#booksList {
+  display: flex;
+  flex-direction: column;
+
+  /* align-items: space-between; */
+  width: 70%;
+  margin: auto;
+}
+
+#date {
+  margin-left: auto;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 100%;
+  border: 1px solid rgb(133, 134, 133);
+  padding: 1rem;
+}
+
+.navItems {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.navBarTitle {
+  font-size: 32px;
+}
+
+.navItem {
+  font-size: 32px;
+}
+
+.navItems > li:nth-child(-n+2) {
+  border-right: 2px solid black;
+  padding-right: 20px;
+}
+
+.active {
+  color: blue;
+}
+
+/* a:active {
+  color: blue;
+} */
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+#booksList {
+  margin: 5rem auto 5rem auto;
+  padding: 1rem;
+}
+
+table {
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+tbody :nth-child(even) {
+  background-color: rgb(148, 145, 145);
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.removeBtn {
+  background: #fff !important;
+  z-index: 10;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 1px 3px;
+}
+
+td {
+  font-size: 32px;
+  width: 500px;
+  line-height: 1;
+  margin-top: 5px;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5rem auto 5rem auto;
+  padding: 1rem;
+  flex: 1 1 70%;
+  width: 70%;
+}
+
+#title,
+#author {
+  flex: 1 1 100%;
+  width: 70%;
+  align-self: center;
+  padding: 10px;
+}
+
+#book-form h2 {
+  flex: 0 0 100%;
+  align-self: center;
+}
+
+#add-book {
+  margin-left: auto;
+  width: 10%;
+  margin-right: 8rem;
+  box-shadow: 1px 3px;
+  padding: 5px;
+}
+
+#contact {
+  margin: 5rem auto 5rem auto;
+  padding: 1rem;
+  font-size: 32px;
+}
+
+#contact > ul > li {
+  margin-left: 5rem;
+}
+
+footer {
+  border: 2px solid gray;
+}
+
+footer > p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.hide {
+  display: none !important;
+  visibility: hidden;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

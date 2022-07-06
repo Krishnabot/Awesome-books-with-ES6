@@ -53,7 +53,6 @@ Give a ⭐️ if you like this project!
 - Web Dev Simplified [Youtube](https://www.youtube.com/watch?v=cRHQNNcYf6s&ab_channel=WebDevSimplified)
 - Hitesh Choudhary [Youtube](https://youtu.be/dQCdwX0p_tc)
 - Dler Ari [FreecodeCamp](https://www.freecodecamp.org/news/how-to-use-es6-modules-and-why-theyre-important-a9b20b480773/)
-- etc
 
 ## 📝 License
 

@@ -1,6 +1,6 @@
 import navMenu from './modules/nav.js';
 import AwesomeBook from './modules/AwesomeBook.js';
-import Books from "./modules/BookCollection.js";
+import Books from './modules/BookCollection.js';
 import DynamicHtml from './modules/DynamicHtml.js';
 import { DateTime } from './node_modules/luxon/src/luxon.js';
 

@@ -7,8 +7,6 @@ body,
 #booksList {
   display: flex;
   flex-direction: column;
-
-  /* align-items: space-between; */
   width: 70%;
   margin: auto;
 }
@@ -48,10 +46,6 @@ body,
 .active {
   color: blue;
 }
-
-/* a:active {
-  color: blue;
-} */
 
 h2 {
   text-align: center;

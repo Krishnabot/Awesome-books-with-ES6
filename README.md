@@ -27,7 +27,9 @@
 
 [Live Demo Link](https://krishnabot.github.io/Awesome-books-with-ES6/)
 
+## Getting Started 
 
+- Use `git clone https://github.com/Krishnabot/Awesome-books-with-ES6.git` to clone this repo in your Local machine.
 
 ## Author
 
